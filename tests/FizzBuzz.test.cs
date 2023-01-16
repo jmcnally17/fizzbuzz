@@ -25,5 +25,16 @@ namespace tests
 
       Assert.Equal(result, "Fizz");
     }
+
+    [Theory]
+    [InlineData(5)]
+    [InlineData(20)]
+    public void NumberReturnsBuzz(int value)
+    {
+      var fizzBuzzChecker = new FizzBuzzChecker();
+      string result = fizzBuzzChecker.Check(value);
+
+      Assert.Equal(result, "Buzz");
+    }
   }
 }
