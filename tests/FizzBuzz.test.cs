@@ -4,13 +4,15 @@ namespace tests
 {
   public class FizzBuzzTests
   {
-    [Fact]
-    public void OneShouldReturnOne()
+    [Theory]
+    [InlineData(1)]
+    [InlineData(2)]
+    public void NumberReturnsNumber(int value)
     {
       var fizzBuzzChecker = new FizzBuzzChecker();
-      string result = fizzBuzzChecker.Check(1);
+      string result = fizzBuzzChecker.Check(value);
 
-      Assert.Equal(result, "1");
+      Assert.Equal(result, $"{value}");
     }
   }
 }

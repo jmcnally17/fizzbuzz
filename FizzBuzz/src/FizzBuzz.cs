@@ -6,7 +6,7 @@ namespace FizzBuzz
   {
     public string Check(int num)
     {
-      return "1";
+      return $"{num}";
     }
   }
 }
