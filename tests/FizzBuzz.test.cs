@@ -1,4 +1,3 @@
-using Xunit;
 using FizzBuzz;
 
 namespace tests
