@@ -16,4 +16,8 @@ To run the program, simply enter
 dotnet run
 ```
 
-while in the [main](https://github.com/jmcnally17/fizzbuzz) directory.
+while in the [FizzBuzz](https://github.com/jmcnally17/fizzbuzz/FizzBuzz) directory.
+
+## Testing
+
+Tests were written using the TDD process and can be found in [FizzBuzz.test.cs](https://github.com/jmcnally17/fizzbuzz/tests/FizzBuzz.test.cs). To run tests, simply run `dotnet test` while in the [main](https://github.com/jmcnally17/fizzbuzz) directory.
