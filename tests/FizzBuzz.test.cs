@@ -17,6 +17,7 @@ namespace tests
 
     [Theory]
     [InlineData(3)]
+    [InlineData(9)]
     public void NumberReturnsFizz(int value)
     {
       var fizzBuzzChecker = new FizzBuzzChecker();
